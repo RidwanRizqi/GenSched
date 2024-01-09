@@ -68,6 +68,7 @@ class ProfessorsService extends AbstractService
         $professor = Professor::find($id);
         $courseIds = [];
         $periods = [];
+        $roomIds = [];
 
         if (!$professor) {
             return null;
@@ -81,8 +82,13 @@ class ProfessorsService extends AbstractService
             $periods[] = implode(",", [$period->day_id, $period->timeslot_id]);
         }
 
+        foreach ($professor->unavailable_rooms_professors as $room) {
+            $roomIds[] = $room->id;
+        }
+
         $professor->course_ids = $courseIds;
         $professor->periods = $periods;
+        $professor->room_ids = $roomIds;
 
         return $professor;
     }
