@@ -45,6 +45,7 @@ class CoursesService extends AbstractService
             $data['professor_ids'] = [];
         }
 
+        $course->unavailable_rooms_courses()->sync($data['room_ids']);
         $course->professors()->sync($data['professor_ids']);
 
         return $course;
@@ -98,7 +99,7 @@ class CoursesService extends AbstractService
             $data['professor_ids'] = [];
         }
 
-
+        $course->unavailable_rooms_courses()->sync($data['room_ids']);
         $course->professors()->sync($data['professor_ids']);
 
         return $course;
