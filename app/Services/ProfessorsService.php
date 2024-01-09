@@ -147,6 +147,9 @@ class ProfessorsService extends AbstractService
             }
         }
 
+        $professor->unavailable_rooms_professors()->sync($data['room_ids']);
+
+
         return $professor;
     }
 }

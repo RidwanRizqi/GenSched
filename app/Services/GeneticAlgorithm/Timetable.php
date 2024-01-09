@@ -131,10 +131,11 @@ class Timetable
      *
      * @param int $professorId Id of professor
      * @param string $unavailableSlots Slots that the professor can't teach
+     * @param array $unavailableRooms Rooms that the professor can't teach in
      */
-    public function addProfessor($professorId, $unavailableSlots)
+    public function addProfessor($professorId, $unavailableSlots, $unavailableRooms)
     {
-        $this->professors[$professorId] = new Professor($professorId, $unavailableSlots);
+        $this->professors[$professorId] = new Professor($professorId, $unavailableSlots, $unavailableRooms);
     }
 
     /**
@@ -415,6 +416,11 @@ class Timetable
 
             // Check if we don't have any lecturer forced to teach at his occupied time
             if (in_array($timeslot->getId(), $professor->getOccupiedSlots())) {
+                $clashes++;
+            }
+
+            // Check if we don't have any lecturer forced to teach at his occupied room
+            if (in_array($classA->getRoomId(), $professor->getOccupiedRooms())) {
                 $clashes++;
             }
 
