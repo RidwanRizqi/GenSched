@@ -429,6 +429,57 @@ class Timetable
                 $clashes++;
             }
 
+            // Check if we don't have same group in two classes at same time
+            foreach ($this->classes as $id => $classB) {
+                if ($classA->getId() != $classB->getId()) {
+                    if (($classA->getGroupId() == $classB->getGroupId()) && ($classA->getTimeslotId() == $classB->getTimeslotId())) {
+                        $clashes++;
+
+                        // Check if the module has more than one meeting
+                        $module = $this->getModule($classA->getModuleId());
+                        if ($module->getSlots($classA->getGroupId()) > 1) {
+                            // implement logic to ensure Ensure that each course with more than one meeting gets the same day, room, professor, and consecutive timeslots
+
+                        }
+
+                        break;
+                    }
+                }
+            }
+
+            // Check if the module has more than one meeting
+            $module = $this->getModule($classA->getModuleId());
+            if ($module->getSlots($classA->getGroupId()) > 1) {
+                // Get all classes for the same module and group
+                $sameModuleClasses = [];
+                foreach ($this->classes as $classB) {
+                    if ($classA->getModuleId() == $classB->getModuleId() && $classA->getGroupId() == $classB->getGroupId()) {
+                        $sameModuleClasses[] = $classB;
+                    }
+                }
+                print $sameModuleClasses;
+
+                // Check if all these classes have the same room, professor, and day
+                $room = $classA->getRoomId();
+                $professor = $classA->getProfessorId();
+                $day = $this->getTimeslot($classA->getTimeslotId())->getDayId();
+                foreach ($sameModuleClasses as $classB) {
+                    if ($room != $classB->getRoomId() || $professor != $classB->getProfessorId() || $day != $this->getTimeslot($classB->getTimeslotId())->getDayId()) {
+                        $clashes++;
+                        break;
+                    }
+                }
+
+                // Check if the timeslots for these classes are consecutive
+                $timeslots = [];
+                foreach ($sameModuleClasses as $classB) {
+                    $timeslots[] = $this->getTimeslot($classB->getTimeslotId())->getId();
+                }
+                if (!$this->areConsecutive($timeslots)) {
+                    $clashes++;
+                }
+            }
+
             // Check if room is taken
             foreach ($this->classes as $id => $classB) {
                 if ($classA->getId() != $classB->getId()) {
