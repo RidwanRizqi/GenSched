@@ -144,9 +144,9 @@ class Timetable
      * @param int $moduleId Id of module
      * @param array $professorIds Ids of professors
      */
-    public function addModule($moduleId, $professorIds)
+    public function addModule($moduleId, $professorIds, $unavailableRoomsCourses)
     {
-        $this->modules[$moduleId] = new Module($moduleId, $professorIds);
+        $this->modules[$moduleId] = new Module($moduleId, $professorIds, $unavailableRoomsCourses);
     }
 
     /**
@@ -421,6 +421,11 @@ class Timetable
 
             // Check if we don't have any lecturer forced to teach at his occupied room
             if (in_array($classA->getRoomId(), $professor->getOccupiedRooms())) {
+                $clashes++;
+            }
+
+            // Check if we don't have any course forced to be taught at its unavailable room
+            if (in_array($classA->getRoomId(), $module->getOccupiedRooms())) {
                 $clashes++;
             }
 

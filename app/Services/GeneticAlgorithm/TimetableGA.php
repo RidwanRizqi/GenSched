@@ -96,12 +96,17 @@ class TimetableGA
 
         foreach ($courses as $course) {
             $professorIds = [];
+            $unavailebleRoomCourseIds = [];
 
             foreach ($course->professors as $professor) {
                 $professorIds[] = $professor->id;
             }
 
-            $timetable->addModule($course->id, $professorIds);
+            foreach ($course->unavailable_rooms_courses as $room) {
+                $unavailebleRoomCourseIds[] = $room->id;
+            }
+
+            $timetable->addModule($course->id, $professorIds, $unavailebleRoomCourseIds);
         }
 
         // Set up class groups
