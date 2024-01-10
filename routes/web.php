@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function() {
+Route::get('/', function () {
     return redirect('/dashboard');
 });
 
@@ -52,7 +52,7 @@ Route::get('/reset_password', 'UsersController@showResetPassword');
 Route::post('/reset_password', 'UsersController@resetPassword');
 Route::get('/my_account', 'UsersController@showAccountPage');
 Route::post('/my_account', 'UsersController@updateAccount');
-Route::get('/logout', function() {
+Route::get('/logout', function () {
     Auth::logout();
     return redirect('/');
 });

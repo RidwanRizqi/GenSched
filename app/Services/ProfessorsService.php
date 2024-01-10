@@ -42,7 +42,7 @@ class ProfessorsService extends AbstractService
 
         if (isset($data['unavailable_periods'])) {
             foreach ($data['unavailable_periods'] as $period) {
-                $parts = explode("," , $period);
+                $parts = explode(",", $period);
                 $dayId = $parts[0];
                 $periodId = $parts[1];
 
@@ -113,7 +113,7 @@ class ProfessorsService extends AbstractService
 
         if (isset($data['unavailable_periods'])) {
             foreach ($data['unavailable_periods'] as $period) {
-                $parts = explode("," , $period);
+                $parts = explode(",", $period);
                 $dayId = $parts[0];
                 $timeslotId = $parts[1];
 
@@ -132,7 +132,7 @@ class ProfessorsService extends AbstractService
 
             foreach ($professor->unavailable_timeslots as $period) {
                 if ($period->day && $period->timeslot) {
-                    $periodString = implode("," , [$period->day->id, $period->timeslot->id]);
+                    $periodString = implode(",", [$period->day->id, $period->timeslot->id]);
                 }
 
                 if (!isset($data['unavailable_periods']) || !in_array($periodString, $data['unavailable_periods'])) {
@@ -142,6 +142,24 @@ class ProfessorsService extends AbstractService
         } else {
             foreach ($professor->unavailable_timeslots as $period) {
                 $period->delete();
+            }
+        }
+
+        if (isset($data['unavailable_rooms'])) {
+            foreach ($data['unavailable_rooms'] as $room) {
+                $existing = $professor->unavailable_rooms()
+                    ->where('room_id', $room)
+                    ->first();
+
+                if (!$existing) {
+                    $professor->unavailable_rooms()->create([
+                        'room_id' => $room,
+                    ]);
+                }
+            }
+        } else {
+            foreach ($professor->unavailable_rooms as $room) {
+                $room->delete();
             }
         }
 

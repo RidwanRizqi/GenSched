@@ -41,4 +41,9 @@ class Professor extends Model
     {
         return $this->hasMany(UnavailableTimeslot::class, 'professor_id');
     }
+
+    public function unavailable_rooms()
+    {
+        return $this->hasMany(UnavailableRoom::class, 'professor_id');
+    }
 }

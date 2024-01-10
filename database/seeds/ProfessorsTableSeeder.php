@@ -172,5 +172,23 @@ class ProfessorsTableSeeder extends Seeder
                 'timeslot_id' => 3
             ]
         ]);
+
+        DB::table('unavailable_rooms')->insert([
+            [
+                'professor_id' => 2,
+                'room_id' => 1,
+                'class_id' => null
+            ],
+            [
+                'professor_id' => 1,
+                'room_id' => 3,
+                'class_id' => null
+            ],
+            [
+                'professor_id' => 5,
+                'room_id' => 4,
+                'class_id' => null
+            ],
+        ]);
     }
 }

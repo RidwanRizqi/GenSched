@@ -70,7 +70,7 @@ class GeneticAlgorithm
     }
 
     /**
-     * Initialize a population
+     * Initialize a populations
      *
      * @param Timetable $timetable Timetable for generating individuals
      */

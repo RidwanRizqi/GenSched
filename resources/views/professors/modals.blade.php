@@ -7,7 +7,7 @@
                     <span aria-hidden="true">x</span>
                 </button>
 
-                <h4 class="modal-heading">Add New Lecture Room</h4>
+                <h4 class="modal-heading">Update Dosen</h4>
             </div>
 
             <form class="form" method="POST" action="" id="resource-form">
@@ -22,7 +22,7 @@
                             {{ csrf_field() }}
 
                             <div class="form-group">
-                                <label>Name</label>
+                                <label>Nama</label>
                                 <input type="text" name="name" class="form-control">
                             </div>
 
@@ -32,30 +32,44 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Courses</label>
+                                <label>Mata Kuliah</label>
 
                                 <div class="select2-wrapper">
                                     <select id="courses-select" name="course_ids[]" class="form-control select2" multiple>
                                         <option value="">Select courses</option>
                                         @foreach ($courses as $course)
-                                         <option value="{{ $course->id }}">{{ $course->course_code }} {{ $course->name }}</option>
+                                        <option value="{{ $course->id }}">{{ $course->course_code }} {{ $course->name }}</option>
                                         @endforeach
                                     </select>
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label>Unavailable periods</label>
+                                <label>Pengecualian waktu</label>
 
                                 <div class="select2-wrapper">
                                     <select id="periods-select" name="unavailable_periods[]" class="form-control select2" multiple>
-                                        <option value="">Select unavailable periods for this lecturer</option>
+                                        <option value="">Pilih pengecualian waktu untuk dosen ini</option>
                                         @foreach ($days as $day)
-                                            @foreach ($timeslots as $timeslot)
-                                                <option value="{{ $day->id  }},{{ $timeslot->id }}">
-                                                    {{ $day->name . " " . $timeslot->time }}
-                                                </option>
-                                            @endforeach
+                                        @foreach ($timeslots as $timeslot)
+                                        <option value="{{ $day->id  }},{{ $timeslot->id }}">
+                                            {{ $day->name . " " . $timeslot->time }}
+                                        </option>
+                                        @endforeach
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Pengecualian ruang</label>
+
+                                <div class="select2-wrapper">
+                                    <select id="rooms-select" name="unavailable_rooms[]" class="form-control select2" multiple>
+                                        <option value="">Pilih pengecualian ruang untuk dosen ini</option>
+                                        @foreach ($rooms as $room)
+                                        <option value="{{ $room->id }}">
+                                            {{ $room->name }}
+                                        </option>
                                         @endforeach
                                     </select>
                                 </div>

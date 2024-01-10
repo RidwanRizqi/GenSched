@@ -15,9 +15,15 @@ class CreateUnavailableRoomsTable extends Migration
     {
         Schema::create('unavailable_rooms', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('class_id')->unsigned();
+            $table->integer('professor_id')->unsigned();
+            $table->integer('class_id')->unsigned()->nullable();
             $table->integer('room_id')->unsigned();
             $table->timestamps();
+
+            $table->foreign('professor_id')
+                ->references('id')
+                ->on('professors')
+                ->onDelete('cascade');
 
             $table->foreign('class_id')
                 ->references('id')

@@ -67,12 +67,16 @@ class TimetableGA
 
         foreach ($professors as $professor) {
             $unavailableSlotIds = [];
+            $unavailableRoomsIds = [];
 
             foreach ($professor->unavailable_timeslots as $timeslot) {
                 $unavailableSlotIds[] = 'D' . $timeslot->day_id . 'T' . $timeslot->timeslot_id;
             }
+            foreach ($professor->unavailable_rooms as $room) {
+                $unavailableRoomsIds[] = $room->room_id;
+            }
 
-            $timetable->addProfessor($professor->id, $unavailableSlotIds);
+            $timetable->addProfessor($professor->id, $unavailableSlotIds, $unavailableRoomsIds);
         }
 
         // Set up courses

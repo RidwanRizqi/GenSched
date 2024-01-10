@@ -132,9 +132,9 @@ class Timetable
      * @param int $professorId Id of professor
      * @param string $unavailableSlots Slots that the professor can't teach
      */
-    public function addProfessor($professorId, $unavailableSlots)
+    public function addProfessor($professorId, $unavailableSlots, $unavailableRooms)
     {
-        $this->professors[$professorId] = new Professor($professorId, $unavailableSlots);
+        $this->professors[$professorId] = new Professor($professorId, $unavailableSlots, $unavailableRooms);
     }
 
     /**

@@ -2,15 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use Response;
-use Illuminate\Http\Request;
-use App\Services\ProfessorsService;
-
 use App\Models\Day;
+use App\Models\Room;
+
 use App\Models\Course;
 use App\Models\Timeslot;
 use App\Models\Professor;
-use App\Models\UnavailableTimeslot;
+use Illuminate\Http\Request;
+use App\Services\ProfessorsService;
 
 class ProfessorsController extends Controller
 {
@@ -51,12 +50,13 @@ class ProfessorsController extends Controller
         $courses = Course::all();
         $days = Day::all();
         $timeslots = Timeslot::all();
+        $rooms = Room::all();
 
         if ($request->ajax()) {
             return view('professors.table', compact('professors'));
         }
 
-        return view('professors.index', compact('professors', 'courses', 'days', 'timeslots'));
+        return view('professors.index', compact('professors', 'courses', 'days', 'timeslots', 'rooms'));
     }
 
     /**
