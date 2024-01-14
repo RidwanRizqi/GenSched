@@ -72,7 +72,7 @@ class TimetableRenderer
                     if (isset($data[$class->id][$day->name][$timeslot->time])) {
                         $body .= "<td class='text-center'>";
                         $slotData = $data[$class->id][$day->name][$timeslot->time];
-                        $courseCode = $slotData['course_code'];
+                        $courseCode = $slotData['course_name'];
                         $courseName = $slotData['course_name'];
                         $professor = $slotData['professor'];
                         $room = $slotData['room'];

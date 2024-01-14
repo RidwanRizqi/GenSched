@@ -12,200 +12,199 @@ class RoomsTableSeeder extends Seeder
     public function run()
     {
         DB::table('rooms')->insert([
+            // R. Praktek Akuntansi :
             [
-                'name' => 'AE1.01',
+                'name' => 'AD2.25 : R. Praktek Akuntansi 1',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.02',
+                'name' => 'AD2.26 : R Praktek Akuntansi 2',
+                'capacity' => 180
+            ],
+
+            // R. Praktek Pengetikan Niaga :
+
+            [
+                'name' => 'AD2.28 : R. Pengetikan Niaga',
+                'capacity' => 180
+            ],
+
+            // R. Praktek Komputer :
+
+            [
+                'name' => 'AD2.27 : Lab. ERP',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.03',
+                'name' => 'AD2.20 : Lab Komputer 1',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.04',
+                'name' => 'AD2.21 : Lab Komputer 2',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.05',
+                'name' => 'AD2.23 : Lab. Komputer 3',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.06',
+                'name' => 'AF2.25 : Lab. Pertamina',
+                'capacity' => 180
+            ],
+
+            // Ruang Kelas dibawah :
+
+            [
+                'name' => 'Ae 1.01',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.07',
+                'name' => 'Ae 1.02',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.08',
+                'name' => 'Ae 1.03',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.09',
+                'name' => 'Ae 1.04',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.10',
+                'name' => 'Ae 1.05',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.11',
+                'name' => 'Ae 1.06',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.12',
+                'name' => 'Ae 1.07',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.13',
+                'name' => 'Ae 2.01',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.14',
+                'name' => 'Ae 2.02',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.15',
+                'name' => 'Ae 2.03',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.16',
+                'name' => 'Ae 2.04',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.17',
+                'name' => 'Ae 2.05',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.18',
+                'name' => 'Ae 2.06',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.19',
+                'name' => 'Ae 2.07',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.20',
+                'name' => 'Ae 2.08',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.21',
+                'name' => 'Ae 2.09',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.22',
+                'name' => 'Ae 2.10',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.23',
+                'name' => 'Ad2.24',
+                'capacity' => 180
+            ],
+
+            // basement
+
+            [
+                'name' => 'R.1',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.24',
+                'name' => 'R.2',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.25',
+                'name' => 'R.3',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.26',
+                'name' => 'R.4',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.27',
+                'name' => 'R.5',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.28',
+                'name' => 'R.6',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.29',
+                'name' => 'R.7',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.30',
+                'name' => 'R.8',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.31',
+                'name' => 'R.9',
+                'capacity' => 180
+            ],
+
+            // Zoom
+            [
+                'name' => 'RZ 1',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.32',
+                'name' => 'RZ 2',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.33',
+                'name' => 'RZ 3',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.34',
+                'name' => 'RZ 4',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.35',
+                'name' => 'RZ 5',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.36',
+                'name' => 'RZ 6',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.37',
+                'name' => 'RZ 7',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.38',
+                'name' => 'RZ 8',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.39',
+                'name' => 'RZ 9',
                 'capacity' => 180
             ],
             [
-                'name' => 'AE1.40',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.41',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.42',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.43',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.44',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.45',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.46',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.47',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.48',
-                'capacity' => 180
-            ],
-            [
-                'name' => 'AE1.49',
+                'name' => 'RZ 10',
                 'capacity' => 180
             ],
         ]);
