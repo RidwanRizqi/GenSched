@@ -5,9 +5,9 @@
             <thead>
                 <tr class="table-head">
                     <th style="width: 20%">Nama</th>
-                    <th style="width: 20%">Email</th>
                     <th style="width: 30%">Mata Kuliah</th>
                     <th style="width: 20%">Pengecualian Waktu</th>
+                    <th style="width: 20%">Pengecualian Ruang</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -16,7 +16,6 @@
                 @foreach($professors as $professor)
                 <tr>
                     <td>{{ $professor->name }}</td>
-                    <td>{{ $professor->email }}</td>
                     <td>
                         @if (count($professor->courses))
                             <ul>
@@ -37,6 +36,15 @@
                             </ul>
                         @else
                             <p>Tidak ada</p>
+                        @endif
+                    </td>
+                    <td>
+                        @if(count($professor->unavailable_rooms_professors))
+                            <ul>
+                                @foreach ($professor->unavailable_rooms_professors as $room)
+                                    <li>{{ $room->name }}</li>
+                                @endforeach
+                            </ul>
                         @endif
                     </td>
                     <td>
