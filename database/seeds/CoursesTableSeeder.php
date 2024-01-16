@@ -106,68 +106,196 @@ class CoursesTableSeeder extends Seeder
                 'jam' => 2
             ],
             [
-                'name' => 'KEUANGAN SYARIAH 2 KEU 2A, 2B, 2C',
-                'course_code' => 'AKT 22100711'
+                'name' => 'KEUANGAN SYARIAH 2 | KEU 2A, 2B, 2C (I)',
+                'course_code' => 'KEU 224006 | X I',
+                'sks' => 1.5,
+                'jam' => 3
             ],
             [
-                'name' => 'PRAKTEK MANAJEMEN KEUANGAN KEU 2A, 2B, 2C',
-                'course_code' => 'AKT 22100811'
+                'name' => 'KEUANGAN SYARIAH 2 | KEU 2A, 2B, 2C (II)',
+                'course_code' => 'KEU 224006 | X II',
+                'sks' => 1.5,
+                'jam' => 3
             ],
             [
-                'name' => 'PERENCANAAN KEUANGAN PERSONAL KEU 3A, 3B, 3C',
-                'course_code' => 'AKT 22100911'
+                'name' => 'PRAKTEK MANAJEMEN KEUANGAN | KEU 2A, 2B, 2C (I)',
+                'course_code' => 'KEU 224007 | X I',
+                'sks' => 1.5,
+                'jam' => 3
             ],
             [
-                'name' => 'APPRAISAL KEU 3A, 3B, 3C',
-                'course_code' => 'AKT 22101011'
+                'name' => 'PRAKTEK MANAJEMEN KEUANGAN | KEU 2A, 2B, 2C (II)',
+                'course_code' => 'KEU 224007 | X II',
+                'sks' => 1.5,
+                'jam' => 3
             ],
             [
-                'name' => 'KEBIJAKAN PUBLIK KEU 3A, 3B, 3C',
-                'course_code' => 'AKT 22101111'
+                'name' => 'PERENCANAAN KEUANGAN PERSONAL | KEU 3A, 3B, 3C (I)',
+                'course_code' => 'KEU 216102 | X I',
+                'sks' => 1,
+                'jam' => 2
             ],
             [
-                'name' => 'KEUANGAN DESA KEU 3A, 3B, 3C',
-                'course_code' => 'AKT 22101211'
+                'name' => 'PERENCANAAN KEUANGAN PERSONAL | KEU 3A, 3B, 3C (II)',
+                'course_code' => 'KEU 216102 | X II',
+                'sks' => 1,
+                'jam' => 2
             ],
             [
-                'name' => 'PRAKTEK PASAR MODAL KEU 3A, 3B, 3C',
-                'course_code' => 'AKT 22101311'
+                'name' => 'APPRAISAL | KEU 3A, 3B, 3C (I)',
+                'course_code' => 'KEU 216103 | X I',
+                'sks' => 1.5,
+                'jam' => 3
             ],
             [
-                'name' => 'MANAJEMEN RESIKO KEU 3A, 3B, 3C',
-                'course_code' => 'AKT 22101411'
+                'name' => 'APPRAISAL | KEU 3A, 3B, 3C (II)',
+                'course_code' => 'KEU 216103 | X II',
+                'sks' => 1.5,
+                'jam' => 3
             ],
             [
-                'name' => 'PENGEMBANGAN KARIR KEU 4A',
-                'course_code' => 'AKT 22101511'
+                'name' => 'KEBIJAKAN PUBLIK | KEU 3A, 3B, 3C (I)',
+                'course_code' => 'KEU 216104 | X I',
+                'sks' => 1,
+                'jam' => 2
             ],
             [
-                'name' => 'PENGEMBANGAN KARIR KEU 4B, 4C',
-                'course_code' => 'AKT 22101512'
+                'name' => 'KEBIJAKAN PUBLIK | KEU 3A, 3B, 3C (II)',
+                'course_code' => 'KEU 216104 | X II',
+                'sks' => 1,
+                'jam' => 2
             ],
             [
-                'name' => 'AK KEU KEU 1A, 1B, 1C',
-                'course_code' => 'AKT 22100111'
+                'name' => 'KEUANGAN DESA | KEU 3A, 3B, 3C (I)',
+                'course_code' => 'KEU 216105 | X I',
+                'sks' => 1,
+                'jam' => 2
             ],
             [
-                'name' => 'PJK KEU 2A, 2B, 2C',
-                'course_code' => 'AKT 22100211'
+                'name' => 'KEUANGAN DESA | KEU 3A, 3B, 3C (II)',
+                'course_code' => 'KEU 216105 | X II',
+                'sks' => 1,
+                'jam' => 2
             ],
             [
-                'name' => 'PRAK PJK KEU 3A, 3B, 3C',
-                'course_code' => 'AKT 22100311'
+                'name' => 'PRAKTEK PASAR MODAL | KEU 3A, 3B, 3C (I)',
+                'course_code' => 'KEU 216107 | X I',
+                'sks' => 1.5,
+                'jam' => 3
             ],
             [
-                'name' => 'BHS. INGGRIS BISNIS 1 KEU 2A, 2B, 2C',
-                'course_code' => 'AKT 22100411'
+                'name' => 'PRAKTEK PASAR MODAL | KEU 3A, 3B, 3C (II)',
+                'course_code' => 'KEU 216107 | X II',
+                'sks' => 1.5,
+                'jam' => 3
             ],
             [
-                'name' => 'BHS. INGGRIS MENENGAH KEU 1A, 1B, 1C',
-                'course_code' => 'AKT 22100511'
+                'name' => 'MANAJEMEN RESIKO | KEU 3A, 3B, 3C (I)',
+                'course_code' => 'KEU 216108 | X I',
+                'sks' => 1,
+                'jam' => 2
             ],
             [
-                'name' => 'BHS. INGGRIS BISNIS 3 KEU 3A, 3B, 3C',
-                'course_code' => 'AKT 22100611'
+                'name' => 'MANAJEMEN RESIKO | KEU 3A, 3B, 3C (II)',
+                'course_code' => 'KEU 216108 | X II',
+                'sks' => 1,
+                'jam' => 2
+            ],
+            [
+                'name' => 'PENGEMBANGAN KARIR KEU 4A (I)',
+                'course_code' => 'KEU 208001 | I I',
+                'sks' => 1,
+                'jam' => 2
+            ],
+            [
+                'name' => 'PENGEMBANGAN KARIR KEU 4A (II)',
+                'course_code' => 'KEU 208001 | I II',
+                'sks' => 1,
+                'jam' => 2
+            ],
+            [
+                'name' => 'PENGEMBANGAN KARIR KEU 4B, 4C (I)',
+                'course_code' => 'KEU 208001 | II I',
+                'sks' => 1,
+                'jam' => 2
+            ],
+            [
+                'name' => 'PENGEMBANGAN KARIR KEU 4B, 4C (II)',
+                'course_code' => 'KEU 208001 | II II',
+                'sks' => 1,
+                'jam' => 2
+            ],
+            [
+                'name' => 'AKUNTANSI KEUANGAN | KEU 1A, 1B, 1C (I)',
+                'course_code' => 'KEU 232006 | X I',
+                'sks' => 1.5,
+                'jam' => 3
+            ],
+            [
+                'name' => 'AKUNTANSI KEUANGAN | KEU 1A, 1B, 1C (II)',
+                'course_code' => 'KEU 232006 | X II',
+                'sks' => 1.5,
+                'jam' => 3
+            ],
+            [
+                'name' => 'PERPAJAKAN | KEU 2A, 2B, 2C (I)',
+                'course_code' => 'KEU 224005 | X I',
+                'sks' => 1.5,
+                'jam' => 3
+            ],
+            [
+                'name' => 'PERPAJAKAN | KEU 2A, 2B, 2C (II)',
+                'course_code' => 'KEU 224005 | X II',
+                'sks' => 1.5,
+                'jam' => 3
+            ],
+            [
+                'name' => 'PRAKTEK PERPAJAKAN | KEU 3A, 3B, 3C (I)',
+                'course_code' => 'KEU 216106 | X I',
+                'sks' => 2,
+                'jam' => 4
+            ],
+            [
+                'name' => 'PRAKTEK PERPAJAKAN | KEU 3A, 3B, 3C (II)',
+                'course_code' => 'KEU 216106 | X II',
+                'sks' => 2,
+                'jam' => 4
+            ],
+            [
+                'name' => 'BAHASA INGGRIS BISNIS 1 | KEU 2A, 2B, 2C (I)',
+                'course_code' => 'KEU 224001 | X I',
+                'sks' => 1,
+                'jam' => 2
+            ],
+            [
+                'name' => 'BAHASA INGGRIS BISNIS 1 | KEU 2A, 2B, 2C (II)',
+                'course_code' => 'KEU 224001 | X II',
+                'sks' => 1,
+                'jam' => 2
+            ],
+            [
+                'name' => 'BAHASA INGGRIS MENENGAH | KEU 1A, 1B, 1C (I)',
+                'course_code' => 'KEU 232004 | X I',
+                'sks' => 1.5,
+                'jam' => 3
+            ],
+            [
+                'name' => 'BAHASA INGGRIS MENENGAH | KEU 1A, 1B, 1C (II)',
+                'course_code' => 'KEU 232004 | X II',
+                'sks' => 1.5,
+                'jam' => 3
+            ],
+            [
+                'name' => 'BAHASA INGGRIS BISNIS 3 | KEU 3A, 3B, 3C (I)',
+                'course_code' => 'KEU 216101 | X I',
+                'sks' => 1,
+                'jam' => 2
+            ],
+            [
+                'name' => 'BAHASA INGGRIS BISNIS 3 | KEU 3A, 3B, 3C (II)',
+                'course_code' => 'KEU 216101 | X II',
+                'sks' => 1,
+                'jam' => 2
             ],
 
             // AKT KODE 2
