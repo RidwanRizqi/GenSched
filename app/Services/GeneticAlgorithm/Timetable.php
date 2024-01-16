@@ -400,7 +400,7 @@ class Timetable
      */
     public function calcClashes()
     {
-        $courses6hoursId = [7,6,3];
+        $courses6hoursId = [7, 6, 3];
         $clashes = 0;
         $days = Day::all();
 
@@ -482,102 +482,102 @@ class Timetable
 
 
 
-//            // Check if the course has id in $course6hoursId, then the next 2 timeslot id must be left blank and cannot be used.
-//            if (in_array($classA->getModuleId(), $courses6hoursId)) {
-//                $timeslotId = $classA->getTimeslotId();
-//
-//                if ($timeslotId == 'D5T6') {
-//                    $clashes++;
-//                }
-//
-//                if ($timeslotId[strlen($timeslotId) - 1] > 5) {
-//                    $clashes++;
-//                }
-//                for ($i = 1; $i <= 2; $i++) {
-//                    // value of $timeslotId is D5T4, I want to increace the value of "4"
-//                    $nextTimeslotId = substr($timeslotId, 0, -1) . ($timeslotId[strlen($timeslotId) - 1] + $i);
-//                    foreach ($this->classes as $classB) {
-//                        if ($classB->getTimeslotId() == $nextTimeslotId) {
-//                            $clashes++;
-//                            break;
-//                        }
-//                    }
-//                }
-//            }
-//
-//            // Check if the course has memiliki id kecuali dalam array $course6hoursId, then the next 1 timeslot id must be left blank and cannot be used.
-//            if (!in_array($classA->getModuleId(), $courses6hoursId)) {
-//                $timeslotId = $classA->getTimeslotId();
-//
-//                if ($timeslotId == 'D5T6') {
-//                    $clashes++;
-//                }
-//
-//                if ($timeslotId[strlen($timeslotId) - 1] > 6) {
-//                    $clashes++;
-//                }
-//                for ($i = 1; $i <= 1; $i++) {
-//                    // value of $timeslotId is D5T4, I want to increace the value of "4"
-//                    $nextTimeslotId = substr($timeslotId, 0, -1) . ($timeslotId[strlen($timeslotId) - 1] + $i);
-//                    foreach ($this->classes as $classB) {
-//                        if ($classB->getTimeslotId() == $nextTimeslotId) {
-//                            $clashes++;
-//                            break;
-//                        }
-//                    }
-//                }
-//            }
+            //            // Check if the course has id in $course6hoursId, then the next 2 timeslot id must be left blank and cannot be used.
+            //            if (in_array($classA->getModuleId(), $courses6hoursId)) {
+            //                $timeslotId = $classA->getTimeslotId();
+            //
+            //                if ($timeslotId == 'D5T6') {
+            //                    $clashes++;
+            //                }
+            //
+            //                if ($timeslotId[strlen($timeslotId) - 1] > 5) {
+            //                    $clashes++;
+            //                }
+            //                for ($i = 1; $i <= 2; $i++) {
+            //                    // value of $timeslotId is D5T4, I want to increace the value of "4"
+            //                    $nextTimeslotId = substr($timeslotId, 0, -1) . ($timeslotId[strlen($timeslotId) - 1] + $i);
+            //                    foreach ($this->classes as $classB) {
+            //                        if ($classB->getTimeslotId() == $nextTimeslotId) {
+            //                            $clashes++;
+            //                            break;
+            //                        }
+            //                    }
+            //                }
+            //            }
+            //
+            //            // Check if the course has memiliki id kecuali dalam array $course6hoursId, then the next 1 timeslot id must be left blank and cannot be used.
+            //            if (!in_array($classA->getModuleId(), $courses6hoursId)) {
+            //                $timeslotId = $classA->getTimeslotId();
+            //
+            //                if ($timeslotId == 'D5T6') {
+            //                    $clashes++;
+            //                }
+            //
+            //                if ($timeslotId[strlen($timeslotId) - 1] > 6) {
+            //                    $clashes++;
+            //                }
+            //                for ($i = 1; $i <= 1; $i++) {
+            //                    // value of $timeslotId is D5T4, I want to increace the value of "4"
+            //                    $nextTimeslotId = substr($timeslotId, 0, -1) . ($timeslotId[strlen($timeslotId) - 1] + $i);
+            //                    foreach ($this->classes as $classB) {
+            //                        if ($classB->getTimeslotId() == $nextTimeslotId) {
+            //                            $clashes++;
+            //                            break;
+            //                        }
+            //                    }
+            //                }
+            //            }
 
-//            // Check if we don't have same group in two classes at same time
-//            foreach ($this->classes as $id => $classB) {
-//                if ($classA->getId() != $classB->getId()) {
-//                    if (($classA->getGroupId() == $classB->getGroupId()) && ($classA->getTimeslotId() == $classB->getTimeslotId())) {
-//                        $clashes++;
-//
-//                        // Check if the module has more than one meeting
-//                        $module = $this->getModule($classA->getModuleId());
-//                        if ($module->getSlots($classA->getGroupId()) > 1) {
-//                            // implement logic to ensure Ensure that each course with more than one meeting gets the same day, room, professor, and consecutive timeslots
-//
-//                        }
-//
-//                        break;
-//                    }
-//                }
-//            }
-//
-//            // Check if the module has more than one meeting
-//            $module = $this->getModule($classA->getModuleId());
-//            if ($module->getSlots($classA->getGroupId()) > 1) {
-//                // Get all classes for the same module and group
-//                $sameModuleClasses = [];
-//                foreach ($this->classes as $classB) {
-//                    if ($classA->getModuleId() == $classB->getModuleId() && $classA->getGroupId() == $classB->getGroupId()) {
-//                        $sameModuleClasses[] = $classB;
-//                    }
-//                }
-//                print $sameModuleClasses;
-//
-//                // Check if all these classes have the same room, professor, and day
-//                $room = $classA->getRoomId();
-//                $professor = $classA->getProfessorId();
-//                $day = $this->getTimeslot($classA->getTimeslotId())->getDayId();
-//                foreach ($sameModuleClasses as $classB) {
-//                    if ($room != $classB->getRoomId() || $professor != $classB->getProfessorId() || $day != $this->getTimeslot($classB->getTimeslotId())->getDayId()) {
-//                        $clashes++;
-//                        break;
-//                    }
-//                }
-//
-//                // Check if the timeslots for these classes are consecutive
-//                $timeslots = [];
-//                foreach ($sameModuleClasses as $classB) {
-//                    $timeslots[] = $this->getTimeslot($classB->getTimeslotId())->getId();
-//                }
-//                if (!$this->areConsecutive($timeslots)) {
-//                    $clashes++;
-//                }
-//            }
+            //            // Check if we don't have same group in two classes at same time
+            //            foreach ($this->classes as $id => $classB) {
+            //                if ($classA->getId() != $classB->getId()) {
+            //                    if (($classA->getGroupId() == $classB->getGroupId()) && ($classA->getTimeslotId() == $classB->getTimeslotId())) {
+            //                        $clashes++;
+            //
+            //                        // Check if the module has more than one meeting
+            //                        $module = $this->getModule($classA->getModuleId());
+            //                        if ($module->getSlots($classA->getGroupId()) > 1) {
+            //                            // implement logic to ensure Ensure that each course with more than one meeting gets the same day, room, professor, and consecutive timeslots
+            //
+            //                        }
+            //
+            //                        break;
+            //                    }
+            //                }
+            //            }
+            //
+            //            // Check if the module has more than one meeting
+            //            $module = $this->getModule($classA->getModuleId());
+            //            if ($module->getSlots($classA->getGroupId()) > 1) {
+            //                // Get all classes for the same module and group
+            //                $sameModuleClasses = [];
+            //                foreach ($this->classes as $classB) {
+            //                    if ($classA->getModuleId() == $classB->getModuleId() && $classA->getGroupId() == $classB->getGroupId()) {
+            //                        $sameModuleClasses[] = $classB;
+            //                    }
+            //                }
+            //                print $sameModuleClasses;
+            //
+            //                // Check if all these classes have the same room, professor, and day
+            //                $room = $classA->getRoomId();
+            //                $professor = $classA->getProfessorId();
+            //                $day = $this->getTimeslot($classA->getTimeslotId())->getDayId();
+            //                foreach ($sameModuleClasses as $classB) {
+            //                    if ($room != $classB->getRoomId() || $professor != $classB->getProfessorId() || $day != $this->getTimeslot($classB->getTimeslotId())->getDayId()) {
+            //                        $clashes++;
+            //                        break;
+            //                    }
+            //                }
+            //
+            //                // Check if the timeslots for these classes are consecutive
+            //                $timeslots = [];
+            //                foreach ($sameModuleClasses as $classB) {
+            //                    $timeslots[] = $this->getTimeslot($classB->getTimeslotId())->getId();
+            //                }
+            //                if (!$this->areConsecutive($timeslots)) {
+            //                    $clashes++;
+            //                }
+            //            }
 
             // Check if room is taken
             foreach ($this->classes as $id => $classB) {
@@ -642,6 +642,12 @@ class Timetable
                             $clashes++;
                         }
 
+                        if (count($moduleTimeslots) > 4) {
+                            // Handle the case where a class has more than 4 meetings
+                            $this->adjustClassSchedule($moduleTimeslots);
+                        }
+
+
                         $checkedModules[] = $classA->getModuleId();
                     }
                 }
@@ -669,5 +675,48 @@ class Timetable
         }
 
         return true;
+    }
+
+    private function adjustClassSchedule($moduleTimeslots)
+    {
+        // Divide the timeslots into two groups
+        $group1 = array_slice($moduleTimeslots, 0, 2);
+        $group2 = array_slice($moduleTimeslots, 2);
+
+        // Update the timeslots in the classes accordingly
+        // For example, set the timeslots for the first two classes to $group1
+        // and the timeslots for the next two classes to $group2
+        $class1 = $this->getClassByTimeslot($group1[0]);
+        $class2 = $this->getClassByTimeslot($group1[1]);
+        $class3 = $this->getClassByTimeslot($group2[0]);
+        $class4 = $this->getClassByTimeslot($group2[1]);
+
+        // Assign new rooms based on your logic
+        $class1->setRoomId($this->getNewRoomId());
+        $class2->setRoomId($this->getNewRoomId());
+        $class3->setRoomId($this->getNewRoomId());
+        $class4->setRoomId($this->getNewRoomId());
+
+        // Update clashes accordingly
+        // $clashes += ...;
+    }
+
+    // Function to get a class by timeslot ID
+    private function getClassByTimeslot($timeslotId)
+    {
+        foreach ($this->classes as $class) {
+            if ($class->getTimeslotId() == $timeslotId) {
+                return $class;
+            }
+        }
+
+        return null;
+    }
+
+    private function getNewRoomId()
+    {
+        // Implement your logic to get a new room ID
+        // For example, you can randomly select a room or use a specific rule
+        return $this->getRandomRoom()->getId();
     }
 }
