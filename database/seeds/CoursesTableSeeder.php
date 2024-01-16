@@ -302,422 +302,630 @@ class CoursesTableSeeder extends Seeder
             // KODE PALING BELAKANG UNTUK DOSEN DAN KELAS, SEBELAH KIRINYA UNTUK PRODI, SEBELAH KIRINYA LAGI KODE MK
             [
                 'name' => 'KOMUNIKASI BISNIS AKT 1A, 1B, 1C, 1D, 1E',
-                'course_code' => 'AKT 22101621'
+                'course_code' => 'AKT 22101621',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'METODOLOGI PENELITIAN AKT 2A, 2B',
-                'course_code' => 'AKT 22101721'
+                'course_code' => 'AKT 22101721',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'METODOLOGI PENELITIAN AKT 2C, 2D',
-                'course_code' => 'AKT 22101722'
+                'course_code' => 'AKT 22101722',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 1 AKT 1C, 1D',
-                'course_code' => 'AKT 22101821'
+                'course_code' => 'AKT 22101821',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 1 AKT 1A, 1B',
-                'course_code' => 'AKT 22101822'
+                'course_code' => 'AKT 22101822',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 1 AKT 1E',
-                'course_code' => 'AKT 22101823'
+                'course_code' => 'AKT 22101823',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PAP JASA DAGANG AKT 1D, 1E',
-                'course_code' => 'AKT 22101921'
+                'course_code' => 'AKT 22101921',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PAP JASA DAGANG AKT 1A, 1B, 1C',
-                'course_code' => 'AKT 22101922'
+                'course_code' => 'AKT 22101922',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 3 AKT 2B',
-                'course_code' => 'AKT 22102021'
+                'course_code' => 'AKT 22102021',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 3 AKT 2A',
-                'course_code' => 'AKT 22102022'
+                'course_code' => 'AKT 22102022',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 3 AKT 2C, 2D',
-                'course_code' => 'AKT 22102023'
+                'course_code' => 'AKT 22102023',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKMAN AKT 2B',
-                'course_code' => 'AKT 22102121'
+                'course_code' => 'AKT 22102121',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKMAN AKT 2A',
-                'course_code' => 'AKT 22102122'
+                'course_code' => 'AKT 22102122',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKMAN AKT 2C, 2D',
-                'course_code' => 'AKT 22102123'
+                'course_code' => 'AKT 22102123',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PENGAUDITAN AKT 2D',
-                'course_code' => 'AKT 22102221'
+                'course_code' => 'AKT 22102221',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PENGAUDITAN AKT 2A, 2B',
-                'course_code' => 'AKT 22102222'
+                'course_code' => 'AKT 22102222',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PENGAUDITAN AKT 2C',
-                'course_code' => 'AKT 22102223'
+                'course_code' => 'AKT 22102223',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK PAJAK AKT 2A, 2B',
-                'course_code' => 'AKT 22102321'
+                'course_code' => 'AKT 22102321',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK PAJAK AKT 2C, 2D',
-                'course_code' => 'AKT 22102322'
+                'course_code' => 'AKT 22102322',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'KOMP AK AKT 2A, 2B, 2C, 2D',
-                'course_code' => 'AKT 22102421'
+                'course_code' => 'AKT 22102421',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PAP MANUFAKTUR AKT 2A, 2B',
-                'course_code' => 'AKT 22102521'
+                'course_code' => 'AKT 22102521',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PAP MANUFAKTUR AKT 2C, 2D',
-                'course_code' => 'AKT 22102522'
+                'course_code' => 'AKT 22102522',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK SIA AKT 2C, 2D',
-                'course_code' => 'AKT 22102621'
+                'course_code' => 'AKT 22102621',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK SIA AKT 2A, 2B',
-                'course_code' => 'AKT 22102622'
+                'course_code' => 'AKT 22102622',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK AUDIT AKT 3A, 3B, 3C, 3D, 3E',
-                'course_code' => 'AKT 22102721'
+                'course_code' => 'AKT 22102721',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK AKM AKT 3D',
-                'course_code' => 'AKT 22102821'
+                'course_code' => 'AKT 22102821',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK AKM AKT 3A, 3B, 3C',
-                'course_code' => 'AKT 22102822'
+                'course_code' => 'AKT 22102822',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK AKM AKT 3E',
-                'course_code' => 'AKT 22102823'
+                'course_code' => 'AKT 22102823',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'BHS. INGGRIS BISNIS 1 AKT 1A, 1B, 1C',
-                'course_code' => 'AKT 22102921'
+                'course_code' => 'AKT 22102921',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'BHS. INGGRIS BISNIS 1 AKT 1D',
-                'course_code' => 'AKT 22102922'
+                'course_code' => 'AKT 22102922',
+                'sks' => 0,
+                'jam' => 0
             ],
 
             // AKM KODE 3
             // KODE PALING BELAKANG UNTUK DOSEN DAN KELAS, SEBELAH KIRINYA UNTUK PRODI, SEBELAH KIRINYA LAGI KODE MK
             [
                 'name' => 'PENGETIKAN NIAGA AKM 1A, 1B, 1C, 1D, 1E, 1I',
-                'course_code' => 'AKT 22101831'
+                'course_code' => 'AKT 22101831',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PENGETIKAN NIAGA AKM 1F, 1G, 1H',
-                'course_code' => 'AKT 22101832'
+                'course_code' => 'AKT 22101832',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 1A, 1B, 1C, 1D, 1E, 1F',
-                'course_code' => 'AKT 22101931'
+                'course_code' => 'AKT 22101931',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 1G, 1H',
-                'course_code' => 'AKT 22101932'
+                'course_code' => 'AKT 22101932',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 1I',
-                'course_code' => 'AKT 22101933'
+                'course_code' => 'AKT 22101933',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN KEUANGAN AKM 2A, 2B, 2C, 2D',
-                'course_code' => 'AKT 22102031'
+                'course_code' => 'AKT 22102031',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN KEUANGAN AKM 2E, 2F, 2G',
-                'course_code' => 'AKT 22102032'
+                'course_code' => 'AKT 22102032',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN KEUANGAN AKM 2H',
-                'course_code' => 'AKT 22102033'
+                'course_code' => 'AKT 22102033',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 3A, 3B',
-                'course_code' => 'AKT 22102131'
+                'course_code' => 'AKT 22102131',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 3C',
-                'course_code' => 'AKT 22102132'
+                'course_code' => 'AKT 22102132',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 3D',
-                'course_code' => 'AKT 22102133'
+                'course_code' => 'AKT 22102133',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 3E',
-                'course_code' => 'AKT 22102134'
+                'course_code' => 'AKT 22102134',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 3F',
-                'course_code' => 'AKT 22102135'
+                'course_code' => 'AKT 22102135',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN PEMASARAN AKM 3G',
-                'course_code' => 'AKT 22102136'
+                'course_code' => 'AKT 22102136',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN KEUANGAN AKM 3A, 3B, 3C',
-                'course_code' => 'AKT 22102231'
+                'course_code' => 'AKT 22102231',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN KEUANGAN AKM 3D, 3E',
-                'course_code' => 'AKT 22102232'
+                'course_code' => 'AKT 22102232',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN KEUANGAN AKM 3F, 3G',
-                'course_code' => 'AKT 22102233'
+                'course_code' => 'AKT 22102233',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'METODOLOGI PENELITIAN AKM 3A',
-                'course_code' => 'AKT 22102331'
+                'course_code' => 'AKT 22102331',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'METODOLOGI PENELITIAN AKM 3B, 3C, 3D',
-                'course_code' => 'AKT 22102332'
+                'course_code' => 'AKT 22102332',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'METODOLOGI PENELITIAN AKM 3E, 3F',
-                'course_code' => 'AKT 22102333'
+                'course_code' => 'AKT 22102333',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'METODOLOGI PENELITIAN AKM 3G',
-                'course_code' => 'AKT 22102334'
+                'course_code' => 'AKT 22102334',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN STRATEJIK AKM 3A, 3B, 3C, 3D',
-                'course_code' => 'AKT 22102431'
+                'course_code' => 'AKT 22102431',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN STRATEJIK AKM 3E, 3F',
-                'course_code' => 'AKT 22102432'
+                'course_code' => 'AKT 22102432',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'MANAJEMEN STRATEJIK AKM 3G',
-                'course_code' => 'AKT 22102433'
+                'course_code' => 'AKT 22102433',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 1 AKM 1C, 1D, 1E',
-                'course_code' => 'AKT 22102531'
+                'course_code' => 'AKT 22102531',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 1 AKM 1F',
-                'course_code' => 'AKT 22102532'
+                'course_code' => 'AKT 22102532',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 1 AKM 1H, 1I',
-                'course_code' => 'AKT 22102533'
+                'course_code' => 'AKT 22102533',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 1 AKM 1A, 1B',
-                'course_code' => 'AKT 22102534'
+                'course_code' => 'AKT 22102534',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 1 AKM 1G',
-                'course_code' => 'AKT 22102535'
+                'course_code' => 'AKT 22102535',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PAP JASA DAGANG AKM 1H, 1I',
-                'course_code' => 'AKT 22102631'
+                'course_code' => 'AKT 22102631',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PAP JASA DAGANG AKM 1A, 1B',
-                'course_code' => 'AKT 22102632'
+                'course_code' => 'AKT 22102632',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PAP JASA DAGANG AKM 1C, 1D',
-                'course_code' => 'AKT 22102633'
+                'course_code' => 'AKT 22102633',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PAP JASA DAGANG AKM 1E, 1F, 1G',
-                'course_code' => 'AKT 22102634'
+                'course_code' => 'AKT 22102634',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 3 AKM 2C, 2D',
-                'course_code' => 'AKT 22102731'
+                'course_code' => 'AKT 22102731',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 3 AKM 2H',
-                'course_code' => 'AKT 22102732'
+                'course_code' => 'AKT 22102732',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 3 AKM 2E, 2F, 2G',
-                'course_code' => 'AKT 22102733'
+                'course_code' => 'AKT 22102733',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKM 3 AKM 2A, 2B',
-                'course_code' => 'AKT 22102734'
+                'course_code' => 'AKT 22102734',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKMAN AKM 2E, 2F',
-                'course_code' => 'AKT 22102831'
+                'course_code' => 'AKT 22102831',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKMAN AKM 2G, 2H',
-                'course_code' => 'AKT 22102832'
+                'course_code' => 'AKT 22102832',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKMAN AKM 2C, 2D',
-                'course_code' => 'AKT 22102833'
+                'course_code' => 'AKT 22102833',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKMAN AKM 2A, 2B',
-                'course_code' => 'AKT 22102834'
+                'course_code' => 'AKT 22102834',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAK PERPAJAKAN AKM 2G, 2H',
-                'course_code' => 'AKT 22102931'
+                'course_code' => 'AKT 22102931',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAK PERPAJAKAN AKM 2F',
-                'course_code' => 'AKT 22102932'
+                'course_code' => 'AKT 22102932',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAK PERPAJAKAN AKM 2A, 2B, 2C',
-                'course_code' => 'AKT 22102933'
+                'course_code' => 'AKT 22102933',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAK PERPAJAKAN AKM 2D, 2E',
-                'course_code' => 'AKT 22102934'
+                'course_code' => 'AKT 22102934',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PA MANUFAKTUR AKM 2D, 2E, 2F',
-                'course_code' => 'AKT 22103031'
+                'course_code' => 'AKT 22103031',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PA MANUFAKTUR AKM 2G, 2H',
-                'course_code' => 'AKT 22103032'
+                'course_code' => 'AKT 22103032',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PA MANUFAKTUR AKM 2A, 2B, 2C',
-                'course_code' => 'AKT 22103033'
+                'course_code' => 'AKT 22103033',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK SIA AKM 2A, 2B, 2C',
-                'course_code' => 'AKT 22103131'
+                'course_code' => 'AKT 22103131',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK SIA AKM 2D, 2E, 2F, 2G',
-                'course_code' => 'AKT 22103132'
+                'course_code' => 'AKT 22103132',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAKTEK SIA AKM 2H',
-                'course_code' => 'AKT 22103133'
+                'course_code' => 'AKT 22103133',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PENGAUDITAN AKM 2E, 2F',
-                'course_code' => 'AKT 22103231'
+                'course_code' => 'AKT 22103231',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PENGAUDITAN AKM 2D',
-                'course_code' => 'AKT 22103232'
+                'course_code' => 'AKT 22103232',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PENGAUDITAN AKM 2G, 2H',
-                'course_code' => 'AKT 22103233'
+                'course_code' => 'AKT 22103233',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PENGAUDITAN AKM 2A, 2B, 2C',
-                'course_code' => 'AKT 22103234'
+                'course_code' => 'AKT 22103234',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AK PERPAJAKAN AKM 3C, 3D',
-                'course_code' => 'AKT 22103331'
+                'course_code' => 'AKT 22103331',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AK PERPAJAKAN AKM 3A, 3B',
-                'course_code' => 'AKT 22103332'
+                'course_code' => 'AKT 22103332',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AK PERPAJAKAN AKM 3E, 3F, 3G',
-                'course_code' => 'AKT 22103333'
+                'course_code' => 'AKT 22103333',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKL 2 AKM 3E',
-                'course_code' => 'AKT 22103431'
+                'course_code' => 'AKT 22103431',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKL 2 AKM 3F, 3G',
-                'course_code' => 'AKT 22103432'
+                'course_code' => 'AKT 22103432',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKL 2 AKM 3C, 3D',
-                'course_code' => 'AKT 22103433'
+                'course_code' => 'AKT 22103433',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AKL 2 AKM 3A, 3B',
-                'course_code' => 'AKT 22103434'
+                'course_code' => 'AKT 22103434',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AUDIT MANAJEMEN AKM 3A, 3B, 3C',
-                'course_code' => 'AKT 22103531'
+                'course_code' => 'AKT 22103531',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AUDIT MANAJEMEN AKM 3F, 3G',
-                'course_code' => 'AKT 22103532'
+                'course_code' => 'AKT 22103532',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'AUDIT MANAJEMEN AKM 3D, 3E',
-                'course_code' => 'AKT 22103533'
+                'course_code' => 'AKT 22103533',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAK AK MANAJEMEN AKM 3F, 3G',
-                'course_code' => 'AKT 22103631'
+                'course_code' => 'AKT 22103631',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAK AK MANAJEMEN AKM 3D, 3E',
-                'course_code' => 'AKT 22103632'
+                'course_code' => 'AKT 22103632',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'PRAK AK MANAJEMEN AKM 3A, 3B, 3C',
-                'course_code' => 'AKT 22103633'
+                'course_code' => 'AKT 22103633',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'TABK AKM 4E, 4F, 4G, 4H',
-                'course_code' => 'AKT 22103731'
+                'course_code' => 'AKT 22103731',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'TABK AKM 4A, 4B, 4C, 4D',
-                'course_code' => 'AKT 22103732'
+                'course_code' => 'AKT 22103732',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'BHS. INGGRIS BISNIS 1 AKM 1A',
-                'course_code' => 'AKT 22103831'
+                'course_code' => 'AKT 22103831',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'BHS. INGGRIS BISNIS 1 AKM 1B',
-                'course_code' => 'AKT 22103832'
+                'course_code' => 'AKT 22103832',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'BHS. INGGRIS BISNIS 1 AKM 1E, 1F, 1G, 1H',
-                'course_code' => 'AKT 22103833'
+                'course_code' => 'AKT 22103833',
+                'sks' => 0,
+                'jam' => 0
             ],
             [
                 'name' => 'BHS. INGGRIS BISNIS 1 AKM 1C',
-                'course_code' => 'AKT 22103834'
+                'course_code' => 'AKT 22103834',
+                'sks' => 0,
+                'jam' => 0
             ]
         ]);
     }
