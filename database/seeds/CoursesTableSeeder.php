@@ -16,283 +16,283 @@ class CoursesTableSeeder extends Seeder
             // KEU KODE 1
             // KODE PALING BELAKANG UNTUK DOSEN DAN KELAS, SEBELAH KIRINYA UNTUK PRODI, SEBELAH KIRINYA LAGI KODE MK
             [
-                'name' => 'BAHASA INDONESIA | KEU 1A, 1B, 1C',
+                'name' => 'BAHASA INDONESIA | KEU 1A, 1B, 1C', // 1
                 'course_code' => 'KEU 232002 | X X',
                 'sks' => 2,
                 'jam' => 2
             ],
             [
-                'name' => 'ASPEK HUKUM DALAM BISNIS | KEU 1A, 1B, 1C (I)',
+                'name' => 'ASPEK HUKUM DALAM BISNIS | KEU 1A, 1B, 1C (I)', // 2
                 'course_code' => 'KEU 232007 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'ASPEK HUKUM DALAM BISNIS | KEU 1A, 1B, 1C (II)',
+                'name' => 'ASPEK HUKUM DALAM BISNIS | KEU 1A, 1B, 1C (II)', // 3
                 'course_code' => 'KEU 232007 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'PENGANTAR ILMU EKONOMI TERAPAN | KEU 1A, 1B, 1C (I)',
+                'name' => 'PENGANTAR ILMU EKONOMI TERAPAN | KEU 1A, 1B, 1C (I)', // 4
                 'course_code' => 'KEU 232005 | X I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'PENGANTAR ILMU EKONOMI TERAPAN | KEU 1A, 1B, 1C (II)',
+                'name' => 'PENGANTAR ILMU EKONOMI TERAPAN | KEU 1A, 1B, 1C (II)', // 5
                 'course_code' => 'KEU 232005 | X II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'KOMUNIKASI BISNIS | KEU 1A, 1B, 1C, 1D, 1E (I)',
+                'name' => 'KOMUNIKASI BISNIS | KEU 1A, 1B, 1C, 1D, 1E (I)', // 6
                 'course_code' => 'KEU 232008 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'KOMUNIKASI BISNIS | KEU 1A, 1B, 1C, 1D, 1E (II)',
+                'name' => 'KOMUNIKASI BISNIS | KEU 1A, 1B, 1C, 1D, 1E (II)', // 7
                 'course_code' => 'KEU 232008 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'KEWIRAUSAHAAN | KEU 2A, 2B, 2C (I)',
+                'name' => 'KEWIRAUSAHAAN | KEU 2A, 2B, 2C (I)', // 8
                 'course_code' => 'KEU 224002 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'KEWIRAUSAHAAN | KEU 2A, 2B, 2C (II)',
+                'name' => 'KEWIRAUSAHAAN | KEU 2A, 2B, 2C (II)', // 9
                 'course_code' => 'KEU 224002 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'MANAJEMEN INVESTASI DAN PASAR MODAL | KEU 2A, 2B (I)',
+                'name' => 'MANAJEMEN INVESTASI DAN PASAR MODAL | KEU 2A, 2B (I)', // 10
                 'course_code' => 'KEU 224003 | I I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'MANAJEMEN INVESTASI DAN PASAR MODAL | KEU 2A, 2B (II)',
+                'name' => 'MANAJEMEN INVESTASI DAN PASAR MODAL | KEU 2A, 2B (II)', // 11
                 'course_code' => 'KEU 224003 | I II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'MANAJEMEN INVESTASI DAN PASAR MODAL | KEU 2C (I)',
+                'name' => 'MANAJEMEN INVESTASI DAN PASAR MODAL | KEU 2C (I)', // 12
                 'course_code' => 'KEU 224003 | II I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'MANAJEMEN INVESTASI DAN PASAR MODAL | KEU 2C (II)',
+                'name' => 'MANAJEMEN INVESTASI DAN PASAR MODAL | KEU 2C (II)', // 13
                 'course_code' => 'KEU 224003 | II II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'KEUANGAN NEGARA | KEU 2A, 2B, 2C (I)',
+                'name' => 'KEUANGAN NEGARA | KEU 2A, 2B, 2C (I)', // 14
                 'course_code' => 'KEU 224004 | X I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'KEUANGAN NEGARA | KEU 2A, 2B, 2C (II)',
+                'name' => 'KEUANGAN NEGARA | KEU 2A, 2B, 2C (II)', // 15
                 'course_code' => 'KEU 224004 | X II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'KEUANGAN SYARIAH 2 | KEU 2A, 2B, 2C (I)',
+                'name' => 'KEUANGAN SYARIAH 2 | KEU 2A, 2B, 2C (I)', // 16
                 'course_code' => 'KEU 224006 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'KEUANGAN SYARIAH 2 | KEU 2A, 2B, 2C (II)',
+                'name' => 'KEUANGAN SYARIAH 2 | KEU 2A, 2B, 2C (II)', // 17
                 'course_code' => 'KEU 224006 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'PRAKTEK MANAJEMEN KEUANGAN | KEU 2A, 2B, 2C (I)',
+                'name' => 'PRAKTEK MANAJEMEN KEUANGAN | KEU 2A, 2B, 2C (I)', // 18
                 'course_code' => 'KEU 224007 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'PRAKTEK MANAJEMEN KEUANGAN | KEU 2A, 2B, 2C (II)',
+                'name' => 'PRAKTEK MANAJEMEN KEUANGAN | KEU 2A, 2B, 2C (II)', // 19
                 'course_code' => 'KEU 224007 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'PERENCANAAN KEUANGAN PERSONAL | KEU 3A, 3B, 3C (I)',
+                'name' => 'PERENCANAAN KEUANGAN PERSONAL | KEU 3A, 3B, 3C (I)', // 20
                 'course_code' => 'KEU 216102 | X I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'PERENCANAAN KEUANGAN PERSONAL | KEU 3A, 3B, 3C (II)',
+                'name' => 'PERENCANAAN KEUANGAN PERSONAL | KEU 3A, 3B, 3C (II)', // 21
                 'course_code' => 'KEU 216102 | X II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'APPRAISAL | KEU 3A, 3B, 3C (I)',
+                'name' => 'APPRAISAL | KEU 3A, 3B, 3C (I)', // 22
                 'course_code' => 'KEU 216103 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'APPRAISAL | KEU 3A, 3B, 3C (II)',
+                'name' => 'APPRAISAL | KEU 3A, 3B, 3C (II)', // 23
                 'course_code' => 'KEU 216103 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'KEBIJAKAN PUBLIK | KEU 3A, 3B, 3C (I)',
+                'name' => 'KEBIJAKAN PUBLIK | KEU 3A, 3B, 3C (I)', // 24
                 'course_code' => 'KEU 216104 | X I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'KEBIJAKAN PUBLIK | KEU 3A, 3B, 3C (II)',
+                'name' => 'KEBIJAKAN PUBLIK | KEU 3A, 3B, 3C (II)', // 25
                 'course_code' => 'KEU 216104 | X II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'KEUANGAN DESA | KEU 3A, 3B, 3C (I)',
+                'name' => 'KEUANGAN DESA | KEU 3A, 3B, 3C (I)', // 26
                 'course_code' => 'KEU 216105 | X I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'KEUANGAN DESA | KEU 3A, 3B, 3C (II)',
+                'name' => 'KEUANGAN DESA | KEU 3A, 3B, 3C (II)', // 27
                 'course_code' => 'KEU 216105 | X II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'PRAKTEK PASAR MODAL | KEU 3A, 3B, 3C (I)',
+                'name' => 'PRAKTEK PASAR MODAL | KEU 3A, 3B, 3C (I)', // 28
                 'course_code' => 'KEU 216107 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'PRAKTEK PASAR MODAL | KEU 3A, 3B, 3C (II)',
+                'name' => 'PRAKTEK PASAR MODAL | KEU 3A, 3B, 3C (II)', // 29
                 'course_code' => 'KEU 216107 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'MANAJEMEN RESIKO | KEU 3A, 3B, 3C (I)',
+                'name' => 'MANAJEMEN RESIKO | KEU 3A, 3B, 3C (I)', // 30
                 'course_code' => 'KEU 216108 | X I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'MANAJEMEN RESIKO | KEU 3A, 3B, 3C (II)',
+                'name' => 'MANAJEMEN RESIKO | KEU 3A, 3B, 3C (II)', // 31
                 'course_code' => 'KEU 216108 | X II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'PENGEMBANGAN KARIR KEU 4A (I)',
+                'name' => 'PENGEMBANGAN KARIR KEU 4A (I)', // 32
                 'course_code' => 'KEU 208001 | I I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'PENGEMBANGAN KARIR KEU 4A (II)',
+                'name' => 'PENGEMBANGAN KARIR KEU 4A (II)', // 33
                 'course_code' => 'KEU 208001 | I II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'PENGEMBANGAN KARIR KEU 4B, 4C (I)',
+                'name' => 'PENGEMBANGAN KARIR KEU 4B, 4C (I)', // 34
                 'course_code' => 'KEU 208001 | II I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'PENGEMBANGAN KARIR KEU 4B, 4C (II)',
+                'name' => 'PENGEMBANGAN KARIR KEU 4B, 4C (II)', // 35
                 'course_code' => 'KEU 208001 | II II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'AKUNTANSI KEUANGAN | KEU 1A, 1B, 1C (I)',
+                'name' => 'AKUNTANSI KEUANGAN | KEU 1A, 1B, 1C (I)', // 36
                 'course_code' => 'KEU 232006 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'AKUNTANSI KEUANGAN | KEU 1A, 1B, 1C (II)',
+                'name' => 'AKUNTANSI KEUANGAN | KEU 1A, 1B, 1C (II)', // 37
                 'course_code' => 'KEU 232006 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'PERPAJAKAN | KEU 2A, 2B, 2C (I)',
+                'name' => 'PERPAJAKAN | KEU 2A, 2B, 2C (I)', // 38
                 'course_code' => 'KEU 224005 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'PERPAJAKAN | KEU 2A, 2B, 2C (II)',
+                'name' => 'PERPAJAKAN | KEU 2A, 2B, 2C (II)', // 39
                 'course_code' => 'KEU 224005 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'PRAKTEK PERPAJAKAN | KEU 3A, 3B, 3C (I)',
+                'name' => 'PRAKTEK PERPAJAKAN | KEU 3A, 3B, 3C (I)', // 40
                 'course_code' => 'KEU 216106 | X I',
                 'sks' => 2,
                 'jam' => 4
             ],
             [
-                'name' => 'PRAKTEK PERPAJAKAN | KEU 3A, 3B, 3C (II)',
+                'name' => 'PRAKTEK PERPAJAKAN | KEU 3A, 3B, 3C (II)', // 41
                 'course_code' => 'KEU 216106 | X II',
                 'sks' => 2,
                 'jam' => 4
             ],
             [
-                'name' => 'BAHASA INGGRIS BISNIS 1 | KEU 2A, 2B, 2C (I)',
+                'name' => 'BAHASA INGGRIS BISNIS 1 | KEU 2A, 2B, 2C (I)', // 42
                 'course_code' => 'KEU 224001 | X I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'BAHASA INGGRIS BISNIS 1 | KEU 2A, 2B, 2C (II)',
+                'name' => 'BAHASA INGGRIS BISNIS 1 | KEU 2A, 2B, 2C (II)', // 43
                 'course_code' => 'KEU 224001 | X II',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'BAHASA INGGRIS MENENGAH | KEU 1A, 1B, 1C (I)',
+                'name' => 'BAHASA INGGRIS MENENGAH | KEU 1A, 1B, 1C (I)', // 44
                 'course_code' => 'KEU 232004 | X I',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'BAHASA INGGRIS MENENGAH | KEU 1A, 1B, 1C (II)',
+                'name' => 'BAHASA INGGRIS MENENGAH | KEU 1A, 1B, 1C (II)', // 45
                 'course_code' => 'KEU 232004 | X II',
                 'sks' => 1.5,
                 'jam' => 3
             ],
             [
-                'name' => 'BAHASA INGGRIS BISNIS 3 | KEU 3A, 3B, 3C (I)',
+                'name' => 'BAHASA INGGRIS BISNIS 3 | KEU 3A, 3B, 3C (I)', // 46
                 'course_code' => 'KEU 216101 | X I',
                 'sks' => 1,
                 'jam' => 2
             ],
             [
-                'name' => 'BAHASA INGGRIS BISNIS 3 | KEU 3A, 3B, 3C (II)',
+                'name' => 'BAHASA INGGRIS BISNIS 3 | KEU 3A, 3B, 3C (II)', // 47
                 'course_code' => 'KEU 216101 | X II',
                 'sks' => 1,
                 'jam' => 2
